@@ -1,0 +1,73 @@
+baseURL: https://riklo.eu # todo: change site url.
+title: RiKlo # todo: change site name.
+defaultContentLanguage: 'en'
+#theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle:  # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Rihards Klotins # todo: set your full name.
+  dontShowSource: true 
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 2
+        archive: 3
+        people: 1
+  socials:
+    # todo: change these links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:ricus.klotins@gmail.com'
+      landing: true
+    #- icon: 'fab fa-github fa-lg'
+    #  url: 'https://github.com/boratanrikulu/eternity'
+    #  landing: true
+    #- icon: 'fab fa-instagram fa-lg'
+    #  url: 'https://instagram.bora.sh/eternity'
+    - icon: 'fab fa-linkedin-in fa-lg'
+      url: 'https://www.linkedin.com/in/rrklotins/'
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  Work: ":filename/"
+
+menu:
+  main:
+    - name: home
+      url: /home/
+      weight: 1
+    - name: Artistic Archive 
+      url: /tags/AA/
+      weight: 2
+    - name: Creation Catalogue
+      url: /tags/CC/
+      weight: 3
+    - name: Reading Reverie
+      url: /tags/RR/
+      weight: 4
