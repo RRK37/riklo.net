@@ -1,4 +1,6 @@
 ---
 desc:
-- Hello, my name is Richard Klotins. I am a student at the University of Bath and a software engineer for Parallel Wireless.
+
+- A Rihards Klotiņš site.
+- 
 ---

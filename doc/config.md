@@ -4,11 +4,11 @@ Example config is here: [**config.yaml**](/config.example.yaml)
 
 You can use `title`, `subtitle`, `image` and `logo` variables for your website.  
 ```yaml
-title: Eternity
+title: RiKlo
 params:
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
   image: '/images/about.png'
-  logo: 'logo.png'
+  logo: 'untitled.png'
 ```
 
 You can use `googleAnalytics` variable to set Analytics.

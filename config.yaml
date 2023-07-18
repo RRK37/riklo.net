@@ -1,15 +1,15 @@
-baseURL: https://riklo.eu # todo: change site url.
-title: RiKlo # todo: change site name.
+baseURL: https://riklo.eu 
+title: RiKlo 
 defaultContentLanguage: 'en'
 #theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
-  logo: logo.png # todo: add your custom logo to static/
-  subtitle:  # todo: change default subtitle for your website.
-  copyright: All rights reserved. # todo: set your copyright type.
-  author: Rihards Klotins # todo: set your full name.
+  logo: RK.png 
+  subtitle:  Yo
+  copyright: All rights reserved. 
+  author: Rihards Klotins 
   dontShowSource: true 
   portfolio:
     columns:

@@ -6,7 +6,7 @@
 /* WELCOME */
 
 .welcome {
-    /* background-image: url("/background.jpeg"); It was moved to inline css. */
+
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -14,8 +14,8 @@
 }
 
 .welcome-media {
-    margin-bottom: 70px;
-    align-items: center !important;
+    margin-bottom: 200px;
+    align-items: centre !important;
 }
 
 .welcome-title {
@@ -24,7 +24,7 @@
 }
 
 .welcome-subtitle {
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 .navbar-end {
@@ -79,7 +79,7 @@
     padding-left: 5px;
     padding-right: 5px;
     font-size: small;
-    color: rgba(214, 214, 214, 0.828);
+    color: rgba(214 , 214 , 214, 0.828);
     background-color: var(--main);
 }
 
@@ -107,7 +107,7 @@ nav.navbar {
 }
 
 div.logo {
-    height: 5rem;
+    height: 11rem;
 }
 
 img.logo {
