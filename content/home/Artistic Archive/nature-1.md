@@ -1,12 +1,12 @@
 ---
 weight: 1
 images:
-- https://source.unsplash.com/random?nature&11774
-title: nature 1
+- /images/AA1.jpg
+title: Rihards in Paris
 date: 2022-07-23
 tags:
 - home # all posts
 - aa
 ---
 
-Hewwo guys
+Rooftops of Paris with some Parisians.

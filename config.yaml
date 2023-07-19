@@ -8,8 +8,8 @@ params:
   image: /images/banner.png
   logo: RK.png 
   subtitle:  Yo
-  copyright: All rights reserved. 
-  author: Rihards Klotins 
+  copyright: #All rights reserved. 
+  author: #Rihards Klotins 
   dontShowSource: true 
   portfolio:
     columns:
@@ -34,7 +34,7 @@ params:
     #  url: 'https://instagram.bora.sh/eternity'
     - icon: 'fab fa-linkedin-in fa-lg'
       url: 'https://www.linkedin.com/in/rrklotins/'
-  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  homepage: "/home" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
     - archive

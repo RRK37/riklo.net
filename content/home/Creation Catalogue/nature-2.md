@@ -1,0 +1,12 @@
+---
+weight: 1
+images:
+- /images/AA2.jpeg
+title: Overlooking Bath
+date: 2022-07-23
+hideExif: true
+tags:
+- home # all posts
+- aa
+---
+Is this what I truly want, or just another impulsive pleasure?
