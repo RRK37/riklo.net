@@ -1,6 +1,10 @@
-<div class="center">
+
+<!-- This controls stuff around each post but not the image or the title. -->
+
+<div class="centre">
     <div class="slide-meta columns is-mobile">
         {{ $tags := .ctx.Params.tags }}
+        <!--	Commented out the tags.
         {{ if $tags }}
             <div class="center column slide-meta-el">
                 <div class="slide-tags">
@@ -16,7 +20,7 @@
                 </div>
             </div>
         {{ end }}
-
+			-->
         {{ if not .ctx.Params.hideDate }}
             {{ if .ctx.Params.Date }}
                 <div class="center column slide-meta-el grey">
