@@ -1,0 +1,8 @@
+:root {
+    --main: #FF0000;
+    --main-light: #0000;
+    --dark: #031729;
+    --dark-light: #101010;
+    --white: rgb(255 , 244 ,  244);
+    --grey: rgb(220 , 120 ,  120);
+}
